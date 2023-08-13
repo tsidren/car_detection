@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.parent{
+    height: 100%;
+    padding: 0px;
+    display: flex;
+}
+
+.parent2{
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    background-color: rgb(240, 211, 132);
+    height:75%;
+    border: solid;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.one1{
+    background-color:black;
+    margin-top:15px;
+    margin-left: 137px;
+    margin-right: 137px;
+    
+}
+
+.two {
+    height: 24%;
+    background-color: rgb(243, 142, 142); 
+    border: solid;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.three {
+    background-color:rgb(169, 219, 135);
+    width: 35%;
+    border: solid;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+.topnav {
+    float: right;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 0px;
+    
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
